@@ -8,11 +8,11 @@ public class ForWhile {
 		while (num <= 100) {
 			if ((num % 3 == 0) && (num % 5 == 0)) {
 				System.out.println("FizzBuzz");
-			}else if (num % 3 == 0) {
+			} else if (num % 3 == 0) {
 				System.out.println("Fizz");
-			}else if (num % 5 == 0) {
+			} else if (num % 5 == 0) {
 				System.out.println("Buzz");
-			}else {
+			} else {
 				System.out.println(num);
 			}
 			
@@ -25,7 +25,7 @@ public class ForWhile {
 	        if (program == "Java") {
 	        	System.out.println("現在学習中の言語はJavaです。");
 	        	continue;
-	        }else if (program =="HTML") {
+	        } else if (program =="HTML") {
 	        	System.out.println("HTMLはプログラミング言語ではありません。");
 	        	break;
 	        }
